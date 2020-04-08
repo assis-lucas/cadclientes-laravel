@@ -1,0 +1,24 @@
+Para rodar o projeto, é necessário ter instalado o php 7.4.2, e ter suas devidas extensões habilitadas, para que tudo funcione corretamente.
+
+O projeto foi desenvolvido em Laravel, na sua última release, Laravel 7.
+
+Para que tudo funcione perfeitamente, é necessário criar um banco de dados chamado
+	"cadclientes", ou qualquer outro nome.
+Também é necessário, alterar as propriedades "DB_USERNAME" e "DB_PASSWORD",
+	com os respectivos dados do banco, dentro do arquivo ".env". Caso o banco de dados tenha outro nome,
+	também será preciso alterar o "DB_DATABASE".
+	
+Com isso feito, rodar no terminal, dentro do projeto php artisan migrate:fresh --seed
+	para que as tabelas sejam criadas, e já tenha um usuário cadastrado no banco de dados.
+	
+User: lucas@me.com
+Password: 123
+
+- Rodar a aplicação em um ambiente de desenvolvimento com php artisan serve,
+- Acessar localhost:8000/login
+- Ou realizar um cadastro em localhost:8000/register
+- O menu desenvolvido é localizado em localhost:8000/customer
+
+Feito.
+
+Em caso de dúvidas, me contatar via lucasassistomaz@gmail.com. 
